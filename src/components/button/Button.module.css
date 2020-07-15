@@ -1,26 +1,17 @@
-.ButtonGroup {
-  display: grid;
-  grid-gap: 1em 1em;
-  grid-template-columns: repeat(4, 1fr);
-  margin-top: 3em;
-}
-
-.NumericButton,
-.OperationsButton {
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  outline: none;
-  border-radius: 5px;
+.Button {
   border: 0;
+  border-radius: 5px;
   background-color: #fff8f0;
-}
-
-.NumericButton {
-  font-size: 2.5rem;
+  cursor: pointer;
+  font-size: 2rem;
   font-weight: 700;
+  outline: none;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease-in-out;
 }
-
-.NumericButton:active,
-.OperationsButton:active {
+.Button:active {
   transform: scale(0.8);
+}
+.Button i {
+  font-size: 1.5rem;
 }

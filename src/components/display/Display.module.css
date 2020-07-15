@@ -1,6 +1,27 @@
 .Display {
+  align-items: flex-end;
   background-color: #cedfcc;
+  box-sizing: border-box;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
   height: 150px;
+  justify-content: flex-end;
+  overflow-x: auto;
+  padding: 1em;
   width: 100%;
+}
+.CurrentDigits {
+  font-family: "digit7";
+  font-size: 5rem;
+  height: 80px;
+  margin: 0;
+  text-align: right;
+}
+.PreviousDigits {
+  font-family: "digit7";
+  font-size: 2rem;
+  height: 31px;
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
